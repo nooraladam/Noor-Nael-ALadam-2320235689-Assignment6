@@ -118,7 +118,7 @@ body {
     transform: scale(1.15);
 }
 
-/* حركة لظهور العناصر من الأسفل إلى الأعلى مع اختفاء تدريجي */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -131,7 +131,6 @@ body {
     }
 }
 
-/* حركة لنص الترحيب (تأثير نبض خفيف أو ظهور من الجانب) */
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -151,9 +150,9 @@ body {
 }
 
 .portfolio-card {
-    /* الكود الحالي الخاص بكِ يظل كما هو، ونضيف عليه: */
     animation: fadeInUp 0.8s ease-out backwards;
 }
+
 
 .portfolio-card:nth-child(1) {
     animation-delay: 0.2s;
