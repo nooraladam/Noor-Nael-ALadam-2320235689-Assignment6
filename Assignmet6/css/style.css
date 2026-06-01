@@ -155,7 +155,6 @@ body {
     animation: fadeInUp 0.8s ease-out backwards;
 }
 
-/* إضافة تأخير بسيط (Delay) بين البطاقات ليعطي مظهر احترافي */
 .portfolio-card:nth-child(1) {
     animation-delay: 0.2s;
 }
